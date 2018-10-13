@@ -13,6 +13,9 @@
 hs_err_pid*
 .idea
 *.iml
+*/*.iml
 *.target
 out
 gen
+
+*target*

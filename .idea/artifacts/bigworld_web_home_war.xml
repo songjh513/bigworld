@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bigworld-web-home:war">
+    <output-path>$PROJECT_DIR$/web/home/target</output-path>
+    <root id="archive" name="bigworld-web-home.war">
+      <element id="artifact" artifact-name="bigworld-web-home:war exploded" />
+    </root>
+  </artifact>
+</component>

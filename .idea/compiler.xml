@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bigworld-biz-framework" />
+        <module name="bigworld-biz-service-impl" />
+        <module name="bigworld-biz-shared" />
+        <module name="bigworld-common-dal" />
+        <module name="bigworld-common-service-facade" />
+        <module name="bigworld-common-service-integration" />
+        <module name="bigworld-common-util" />
+        <module name="bigworld-core-model" />
+        <module name="bigworld-core-service" />
+        <module name="bigworld-web-home" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bigworld" target="1.7" />
+      <module name="bigworld-biz-framework" target="1.7" />
+      <module name="bigworld-biz-service-impl" target="1.7" />
+      <module name="bigworld-biz-shared" target="1.7" />
+      <module name="bigworld-common-dal" target="1.7" />
+      <module name="bigworld-common-service-facade" target="1.7" />
+      <module name="bigworld-common-service-integration" target="1.7" />
+      <module name="bigworld-common-util" target="1.7" />
+      <module name="bigworld-core-model" target="1.7" />
+      <module name="bigworld-core-service" target="1.7" />
+      <module name="bigworld-web-home" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

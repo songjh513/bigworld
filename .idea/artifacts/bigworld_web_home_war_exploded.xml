@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="bigworld-web-home:war exploded">
+    <output-path>$PROJECT_DIR$/web/home/target/bigworld-web-home</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="bigworld-web-home" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/web/home/target/bigworld-web-home/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="bigworld-web-home/web/Web" />
+    </root>
+  </artifact>
+</component>
