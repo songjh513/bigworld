@@ -16,6 +16,7 @@
         <module name="bigworld-core-model" />
         <module name="bigworld-core-service" />
         <module name="bigworld-web-home" />
+        <module name="bigworld-web-sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="bigworld-core-model" target="1.7" />
       <module name="bigworld-core-service" target="1.7" />
       <module name="bigworld-web-home" target="1.7" />
+      <module name="bigworld-web-sso" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
