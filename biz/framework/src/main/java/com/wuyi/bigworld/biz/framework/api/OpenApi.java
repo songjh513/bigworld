@@ -7,7 +7,7 @@ public interface OpenApi<M extends ResponseData, N extends RequestData> {
 
     M execute();
 
-    M execute(final N request);
+//    M execute(final N request);
 
     void initAfterStart();
 

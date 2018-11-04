@@ -7,5 +7,5 @@ public interface ApiService {
 
     OpenApi<ResponseData, RequestData> getApi(String biz, String action);
 
-    <T extends OpenApi<?, ?>> T getApi(Class<T> clazz);
+    <T extends OpenApi<? extends ResponseData, ? extends RequestData>> T getApi(Class<T> clazz);
 }

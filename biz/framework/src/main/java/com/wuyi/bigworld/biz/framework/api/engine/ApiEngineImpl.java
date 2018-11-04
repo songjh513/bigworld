@@ -3,6 +3,7 @@ package com.wuyi.bigworld.biz.framework.api.engine;
 import com.wuyi.bigworld.biz.framework.api.*;
 import com.wuyi.bigworld.biz.framework.api.interceptor.ApiInterceptor;
 import com.wuyi.bigworld.biz.framework.api.invocation.ApiInvocation;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +14,7 @@ import java.util.List;
 public class ApiEngineImpl implements ApiEngine {
 
 
+    @Autowired
     private ApiService apiService;
 
     List<ApiInterceptor> interceptors =new ArrayList<ApiInterceptor>();

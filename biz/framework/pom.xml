@@ -27,6 +27,10 @@
             <groupId>com.wuyi.bigworld</groupId>
             <artifactId>bigworld-biz-shared</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.wuyi.bigworld</groupId>
+            <artifactId>bigworld-core-model</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

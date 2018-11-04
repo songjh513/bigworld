@@ -1,5 +1,7 @@
 package com.wuyi.bigworld.biz.framework.api;
 
+import com.alibaba.fastjson.JSON;
+
 /**
  * Created  by songjh on 2018-10-14 11:43.
  */
@@ -59,5 +61,9 @@ public class DispatchContext {
 
     public void setResponseData(ResponseData responseData) {
         this.responseData = responseData;
+        if (responseData != null) {
+            this.response =  JSON.toJSONString(responseData);
+        }
+
     }
 }

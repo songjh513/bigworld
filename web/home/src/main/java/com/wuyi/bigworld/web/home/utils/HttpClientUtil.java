@@ -24,7 +24,18 @@ public class HttpClientUtil {
 	protected static Logger logger = Logger.getLogger(HttpClientUtil.class);
 	public static CookieStore cookieStore = new BasicCookieStore();
 	public static CloseableHttpClient httpCilent = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
-	
+
+	public static CloseableHttpClient sslHttpCilent;
+
+	static {
+		try {
+			sslHttpCilent = new SSLClient();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+
 	public static String httpPost(String url, List<BasicNameValuePair> list) {
  
 		// 配置超时时间
@@ -41,7 +52,7 @@ public class HttpClientUtil {
 			UrlEncodedFormEntity entity = new UrlEncodedFormEntity(list, "UTF-8");
 			// 设置post求情参数
 			httpPost.setEntity(entity);
-			HttpResponse httpResponse = httpCilent.execute(httpPost);
+			HttpResponse httpResponse = sslHttpCilent.execute(httpPost);
  
 			if (httpResponse != null) {
 				StatusCode=httpResponse.getStatusLine().getStatusCode();
@@ -77,7 +88,7 @@ public class HttpClientUtil {
 		String srtResult =null;
 		int StatusCode=404;
 		try {
-			HttpResponse httpResponse = httpCilent.execute(httpGet2);
+			HttpResponse httpResponse = sslHttpCilent.execute(httpGet2);
 			StatusCode=httpResponse.getStatusLine().getStatusCode();
 			if (httpResponse.getStatusLine().getStatusCode() == 200) {
 				srtResult = EntityUtils.toString(httpResponse.getEntity());// 获得返回的结果

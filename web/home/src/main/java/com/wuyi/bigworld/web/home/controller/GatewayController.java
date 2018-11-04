@@ -1,6 +1,5 @@
-package com.wuyi.bigworld.web.home;
+package com.wuyi.bigworld.web.home.controller;
 
-import com.alibaba.dubbo.common.utils.LogUtil;
 import com.wuyi.bigworld.biz.framework.api.DispatchContext;
 import com.wuyi.bigworld.biz.framework.api.engine.ApiEngine;
 import org.apache.commons.lang3.StringUtils;
@@ -28,8 +27,8 @@ public class GatewayController {
     private ApiEngine apiEngine;
 
 
-    @RequestMapping(value = "gateway.htm",method = {RequestMethod.GET,RequestMethod.POST})
-    public void doGet(HttpServletRequest request, HttpServletResponse response){
+    @RequestMapping(value = "gateway.htm", method = {RequestMethod.GET, RequestMethod.POST})
+    public void doGet(HttpServletRequest request, HttpServletResponse response) {
         try {
             String biz = request.getParameter("biz");
             String action = request.getParameter("action");
@@ -38,8 +37,7 @@ public class GatewayController {
             if (StringUtils.isNotBlank(data)) {
                 data = URLDecoder.decode(data, "UTF-8");
             }
-            DispatchContext dispatchContext = new
-                    DispatchContext();
+            DispatchContext dispatchContext = new DispatchContext();
             dispatchContext.setBiz(biz);
             dispatchContext.setAction(action);
             dispatchContext.setRequest(data);
