@@ -5,14 +5,11 @@ import com.wuyi.bigworld.web.home.annoation.Anoymous;
 import com.wuyi.bigworld.web.home.constants.AliyunLoginConstant;
 import com.wuyi.bigworld.web.home.utils.CookieUtil;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
-import java.util.Enumeration;
 
 
 public class TokenIntercepter extends HandlerInterceptorAdapter {

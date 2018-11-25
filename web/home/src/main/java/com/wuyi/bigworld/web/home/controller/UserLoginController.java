@@ -5,6 +5,8 @@ import com.wuyi.bigworld.web.home.constants.AliyunLoginConstant;
 import com.wuyi.bigworld.web.home.model.IdTokenInfo;
 import com.wuyi.bigworld.web.home.model.TokenInfo;
 import com.wuyi.bigworld.web.home.model.UserInfo;
+import com.wuyi.bigworld.web.home.templete.DefaultOperateCallback;
+import com.wuyi.bigworld.web.home.templete.WebCommonOperateTemplate;
 import com.wuyi.bigworld.web.home.utils.AliyunLoginHelper;
 import com.wuyi.bigworld.web.home.utils.CookieUtil;
 import com.wuyi.bigworld.web.home.utils.HttpClientUtil;
@@ -14,11 +16,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Created  by songjh on 2018-10-13 10:54.
@@ -66,6 +71,24 @@ public class UserLoginController {
         UserInfo userInfo = AliyunLoginHelper.getUserInfoFromIdToken(idTokenInfo);
 
         return userInfo;
+    }
+
+
+
+    @Anoymous
+    @RequestMapping(value = "test", method = {RequestMethod.GET, RequestMethod.POST})
+    @ResponseBody
+    public Object test(HttpServletRequest request, HttpServletResponse response) {
+
+          return WebCommonOperateTemplate.operate(logger, "test", new DefaultOperateCallback() {
+              @Override
+              public Object execute() {
+                  Map<String,Object> test = new HashMap<>();
+                  test.put("name","zhangsan");
+                  test.put("age",18);
+                  return test;
+              }
+          });
     }
 
 }
