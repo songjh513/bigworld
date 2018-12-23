@@ -19,3 +19,7 @@ out
 gen
 
 *target*
+.idea/
+
+
+.idea/*

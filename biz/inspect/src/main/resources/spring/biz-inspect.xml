@@ -16,5 +16,7 @@
         <context:include-filter type="annotation" expression="com.wuyi.bigworld.biz.framework.api.annotation.Api"/>
     </context:component-scan>
 
+    <import resource="classpath:spring/biz-framework.xml" />
+    <import resource="classpath:spring/common-dal.xml" />
 
 </beans>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bigworld-biz-framework" />
+        <module name="bigworld-biz-inspect" />
         <module name="bigworld-biz-service-impl" />
         <module name="bigworld-biz-shared" />
         <module name="bigworld-common-dal" />
@@ -22,6 +23,7 @@
     <bytecodeTargetLevel>
       <module name="bigworld" target="1.7" />
       <module name="bigworld-biz-framework" target="1.7" />
+      <module name="bigworld-biz-inspect" target="1.7" />
       <module name="bigworld-biz-service-impl" target="1.7" />
       <module name="bigworld-biz-shared" target="1.7" />
       <module name="bigworld-common-dal" target="1.7" />

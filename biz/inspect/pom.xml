@@ -25,6 +25,10 @@
             <groupId>com.wuyi.bigworld</groupId>
             <artifactId>bigworld-biz-framework</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.wuyi.bigworld</groupId>
+            <artifactId>bigworld-common-dal</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
