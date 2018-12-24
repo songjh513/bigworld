@@ -12,18 +12,19 @@
   <url>http://www.example.com</url>
 
   <modules>
-    <module>web/home</module>
-    <module>web/sso</module>
-    <module>biz/framework</module>
-    <module>biz/inspect</module>
-    <module>biz/service/impl</module>
-    <module>biz/shared</module>
-    <module>common/util</module>
-    <module>common/dal</module>
-    <module>common/service/facade</module>
-    <module>common/service/integration</module>
-    <module>core/model</module>
-    <module>core/service</module>
+    <module>bigworld-web-home</module>
+    <module>bigworld-web-sso</module>
+    <module>bigworld-biz-framework</module>
+    <module>bigworld-biz-inspect</module>
+    <module>bigworld-biz-service-impl</module>
+    <module>bigworld-biz-shared</module>
+    <module>bigworld-common-util</module>
+    <module>bigworld-common-dal</module>
+    <module>bigworld-common-service-facade</module>
+    <module>bigworld-common-service-integration</module>
+    <module>bigworld-core-model</module>
+    <module>bigworld-core-service</module>
+    <module>bigworld-biz-shared</module>
   </modules>
 
   <properties>

@@ -3,18 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bigworld.iml" filepath="$PROJECT_DIR$/bigworld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/biz/framework/bigworld-biz-framework.iml" filepath="$PROJECT_DIR$/biz/framework/bigworld-biz-framework.iml" />
-      <module fileurl="file://$PROJECT_DIR$/biz/inspect/bigworld-biz-inspect.iml" filepath="$PROJECT_DIR$/biz/inspect/bigworld-biz-inspect.iml" />
-      <module fileurl="file://$PROJECT_DIR$/biz/service/impl/bigworld-biz-service-impl.iml" filepath="$PROJECT_DIR$/biz/service/impl/bigworld-biz-service-impl.iml" />
-      <module fileurl="file://$PROJECT_DIR$/biz/shared/bigworld-biz-shared.iml" filepath="$PROJECT_DIR$/biz/shared/bigworld-biz-shared.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/dal/bigworld-common-dal.iml" filepath="$PROJECT_DIR$/common/dal/bigworld-common-dal.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/service/facade/bigworld-common-service-facade.iml" filepath="$PROJECT_DIR$/common/service/facade/bigworld-common-service-facade.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/service/integration/bigworld-common-service-integration.iml" filepath="$PROJECT_DIR$/common/service/integration/bigworld-common-service-integration.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/util/bigworld-common-util.iml" filepath="$PROJECT_DIR$/common/util/bigworld-common-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/model/bigworld-core-model.iml" filepath="$PROJECT_DIR$/core/model/bigworld-core-model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/service/bigworld-core-service.iml" filepath="$PROJECT_DIR$/core/service/bigworld-core-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/home/bigworld-web-home.iml" filepath="$PROJECT_DIR$/web/home/bigworld-web-home.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/sso/bigworld-web-sso.iml" filepath="$PROJECT_DIR$/web/sso/bigworld-web-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-biz-framework/bigworld-biz-framework.iml" filepath="$PROJECT_DIR$/bigworld-biz-framework/bigworld-biz-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-biz-inspect/bigworld-biz-inspect.iml" filepath="$PROJECT_DIR$/bigworld-biz-inspect/bigworld-biz-inspect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-biz-service-impl/bigworld-biz-service-impl.iml" filepath="$PROJECT_DIR$/bigworld-biz-service-impl/bigworld-biz-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-biz-shared/bigworld-biz-shared.iml" filepath="$PROJECT_DIR$/bigworld-biz-shared/bigworld-biz-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-common-dal/bigworld-common-dal.iml" filepath="$PROJECT_DIR$/bigworld-common-dal/bigworld-common-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-common-service-facade/bigworld-common-service-facade.iml" filepath="$PROJECT_DIR$/bigworld-common-service-facade/bigworld-common-service-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-common-service-integration/bigworld-common-service-integration.iml" filepath="$PROJECT_DIR$/bigworld-common-service-integration/bigworld-common-service-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-common-util/bigworld-common-util.iml" filepath="$PROJECT_DIR$/bigworld-common-util/bigworld-common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-core-model/bigworld-core-model.iml" filepath="$PROJECT_DIR$/bigworld-core-model/bigworld-core-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-core-service/bigworld-core-service.iml" filepath="$PROJECT_DIR$/bigworld-core-service/bigworld-core-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-web-home/bigworld-web-home.iml" filepath="$PROJECT_DIR$/bigworld-web-home/bigworld-web-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigworld-web-sso/bigworld-web-sso.iml" filepath="$PROJECT_DIR$/bigworld-web-sso/bigworld-web-sso.iml" />
     </modules>
   </component>
 </project>
